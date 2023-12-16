@@ -1,10 +1,10 @@
-	class CfgPatches
+class CfgPatches
 {
-	class Raven_Bomber
+	class raven_m65
 	{
 		units[]=
 		{
-			"Raven_Bomber"
+			"raven_m65"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -16,20 +16,20 @@
 };
 class CfgVehicles
 {
-	class BomberJacket_ColorBase;
-	class Raven_Bomber: BomberJacket_ColorBase
+	class M65Jacket_ColorBase;
+	class raven_m65: M65Jacket_ColorBase
 	{
 		scope=2;
-		displayName="Ravenuv Bomber";
-		descriptionShort="Nezapomen dat odber a like";
-		itemsCargoSize[]={10,10};
+		displayName="Adminova bunda";
+		descriptionShort="Tato bunda je majetkem RavenTreka";
+		itemsCargoSize[]={10,100};
 		heatIsolation=0.99999999;
-		visibilityModifier=0.89999998;
+		visibilityModifier=0.5;
 		hiddenSelectionsTextures[]=
 		{
-			"RavenBomber\data\Raven_Bomber.paa",
-			"RavenBomber\data\Raven_Bomber.paa",
-			"RavenBomber\data\Raven_Bomber.paa"
+			"RavenM65\data\raven_m65.paa",
+			"RavenM65\data\raven_m65.paa",
+			"RavenM65\data\raven_m65.paa"
 		};
 	};
 };
